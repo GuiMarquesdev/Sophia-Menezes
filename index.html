@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Página de Sophia Menezes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <div class="container__card">  
+        <h1 class="titulo__principal">SOPHIA MENEZES</h1>  
+        <p class="paragrafo">CRIADORA DE CONTEÚDO FITNESS</p>  
+        <div class="image-container">  
+            <img src="../SitedeLinks/img/Sophia.jpg" alt="Sophia Menezes">  
+        </div>  
+        <div class="button-container">  
+            <a class="button-container"><button id="whatsappButton">PARCEIRIA</button></a>  
+            <a class="button-container"><button id="emailButton">E-MAIL</button></a> 
+            <a class="button-container" href="https://www.tiktok.com/@sophi.menezesfit?_t=ZM-8tJoulG94XW&_r=1"><button >TIKTOK</button></a>
+        </div>  
+    </div>  
+</body> 
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function() {
+        var numero = "557194105325"; // Substitua pelo número desejado (com DDD e sem espaços)
+        var mensagem = "Olá, Sophia Menezes! Gostaria de fazer uma proposta de parceria."; 
+        var url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
+        
+        window.open(url, "_blank"); // Abre o WhatsApp em uma nova aba
+        });
+
+    document.getElementById("emailButton").addEventListener("click", function() {
+            var destinatario = "Sophiaamenezes10@gmail.com"; // Substitua pelo seu e-mail
+            var mailtoLink = "mailto:" + destinatario;
+            window.location.href = mailtoLink; // Abre o cliente de e-mail padrão
+        });
+</script> 
+</html>  
