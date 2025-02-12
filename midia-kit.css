@@ -20,3 +20,29 @@ iframe {
     height: 100%;
     border: none;
 }
+@media screen and (min-width: 390px) {
+    body {
+        font-size: 14px; /* Ajuste do tamanho da fonte */
+    }
+
+    .container__card {
+        padding: 1.5em 3em; /* Reduz o padding para caber melhor */
+    }
+
+    .titulo__principal {
+        font-size: 2em; /* Reduz o tamanho do título */
+    }
+
+    .paragrafo {
+        font-size: 0.9em; /* Ajusta o tamanho do texto */
+    }
+
+    .image-container img {
+        width: 250px; /* Reduz o tamanho da imagem */
+    }
+
+    button {
+        font-size: 12px; /* Ajusta o tamanho do texto nos botões */
+        padding: 0.6em; /* Reduz o padding dos botões */
+    }
+}
