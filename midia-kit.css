@@ -23,7 +23,6 @@ body {
     max-width: 90%; /* Limita a largura da imagem */
     max-height: 90vh; /* Limita a altura da imagem */
     object-fit: contain; /* Mantém a proporção da imagem */
-    border-radius: 3em;
 }
 
 .swiper-button-prev, .swiper-button-next {
